@@ -8,6 +8,9 @@
   width: 100vw;
   background-color: lightgray;
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .item {
@@ -15,4 +18,15 @@
   background-color: white;
   height: 180px;
   width: 180px;
+  display: flex ;
+  align-items: center;
+  justify-content: space-around;
+
 }
+
+
+/*Altere o arquivo CSS para deixar o HTML como na imagem abaixo. 
+Para isso utilize as propriedades `justify-content`, `align-items` e `flex-direction`.
+
+**Dica**: Lembre-se que itens flex também podem ser contêineres.
+*/
